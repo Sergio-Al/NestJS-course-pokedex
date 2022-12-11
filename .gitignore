@@ -5,6 +5,9 @@
 # database configuration
 /mongo
 
+# environment variables
+.env
+
 # Logs
 logs
 *.log
