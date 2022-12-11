@@ -19,7 +19,17 @@ npm install -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Seed the database with data
+5. Copy the file __.env.template__ and rename it as __.env__
+
+6. Fill your environment variables in the file ```.env```
+
+7. Execute the app in dev environment:
+
+```
+npm run dev
+```
+
+8. Seed the database with data
 ```
 http://localhost:3000/api/v2/seed
 ```
