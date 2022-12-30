@@ -38,3 +38,18 @@ http://localhost:3000/api/v2/seed
 * MongoDB
 * NestJS
 * Typescript
+
+# Production Build
+1. Create the file ```.env.prod```
+2. Fill variables of ```.env.prod```
+3. Build the new image
+```
+docker compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
+# Notes
+Heroku re-deploy without changes:
+```
+
+git push heroku master
+```
